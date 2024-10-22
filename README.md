@@ -6,7 +6,7 @@
 
 ###  Deployment
 
-- **Install** [Node.js]((https://nodejs.org/zh-cn)) **environment**
+- **Install** [Node.js](https://nodejs.org/zh-cn) **environment**
 
   - Open project folder by IDE
   - Open the terminal
@@ -16,7 +16,7 @@
     - npm install express mongoose cors nodemon
 
      ```
-  - After installing the environment, enter the following code to start the front end
+  - After installing the environment, enter the following code to start the back end
     ```
     -npm run dev
     ```
@@ -49,12 +49,14 @@
 |-- README.md  
 |-- codestyle.md 
 |-- package-lock.json
+|-- .env
+|-- server.js
 |-- package.json
-|-- src
-|   |-- App.vue
-|   |-- main.js 
-|   |-- components //组件
-|       |-- ContactList.vue 
+|-- routed
+|   |-- contacts.js
+|-- models
+|   |-- contact.js
+
 ```
 
 
