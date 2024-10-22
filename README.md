@@ -6,7 +6,7 @@
 
 ###  Deployment
 
-- **Install** [Node.js](https://nodejs.org/zh-cn) **environment**
+- **Install** [Node.js](https://nodejs.org/zh-cn) **environment** and MongoDB
 
   - Open project folder by IDE
   - Open the terminal
